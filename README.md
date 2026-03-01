@@ -61,7 +61,7 @@ TAVILY_KEY=your_tavily_api_key_here
 
 3. **Run it**
 ```bash
-python main.py
+python ai-web-search.py
 ```
 
 ---
