@@ -41,7 +41,7 @@ Your Question
 Install dependencies:
 
 ```bash
-pip install requests aiohttp python-dotenv
+pip install requests aiohttp
 ```
 
 ---
