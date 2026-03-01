@@ -41,7 +41,7 @@ Your Question
 Install dependencies:
 
 ```bash
-pip install requests aiohttp
+pip install requests aiohttp python-dotenv
 ```
 
 ---
@@ -54,7 +54,12 @@ git clone https://github.com/BREEZE07-TG/ai-web-search.git
 cd ai-web-search
 ```
 
-2. **Run it**
+2. **Create a `.env` file**
+```
+TAVILY_KEY=your_tavily_api_key_here
+```
+
+3. **Run it**
 ```bash
 python ai-web-search.py
 ```
@@ -64,9 +69,11 @@ python ai-web-search.py
 ## 📁 Project Structure
 
 ```
-ai-web-search
-|-- ai-web-search.py
-|-- Readme.md
+ai-web-search/
+├── ai-web-search.py        # Main script
+├── .env           # Your API keys (never commit this)
+├── .gitignore     # Ignores .env
+└── README.md
 ```
 ---
 
