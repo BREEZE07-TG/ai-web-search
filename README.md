@@ -50,7 +50,7 @@ pip install requests aiohttp python-dotenv
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/ai-web-search.git
+git clone https://github.com/BREEZE07-TG/ai-web-search.git
 cd ai-web-search
 ```
 
