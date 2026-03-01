@@ -1,8 +1,11 @@
 import requests
 import aiohttp
 import asyncio
+from dotenv import load_dotenv
+import os
 
-TAVILY_KEY = ""#go to tavily.com for its api
+load_dotenv()
+TAVILY_KEY = os.getenv("TAVILY_KEY")
 
 
 
@@ -108,4 +111,5 @@ async def main():
 
 
 asyncio.run(main())
+
 
