@@ -2,7 +2,7 @@ import requests
 import aiohttp
 import asyncio
 
-TAVILY_KEY = ""#go to tavilya.com for its api
+TAVILY_KEY = ""#go to tavily.com for its api
 
 
 
@@ -108,3 +108,4 @@ async def main():
 
 
 asyncio.run(main())
+
