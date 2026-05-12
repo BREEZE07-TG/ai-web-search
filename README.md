@@ -70,9 +70,9 @@ python ai-web-search.py
 
 ```
 ai-web-search/
-├── ai-web-search.py        # Main script
-├── .env           # Your API keys (never commit this)
-├── .gitignore     # Ignores .env
+├── ai-web-search.py
+├── .env
+├── .gitignore
 └── README.md
 ```
 ---
